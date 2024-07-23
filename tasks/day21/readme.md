@@ -14,7 +14,7 @@ openssl req -new -key learner.key -out learner.csr -subj "/CN=learner"
 ```
 touch csr.yaml
 ```
-Basic Stuff
+[The basic signing request](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#create-certificatessigningrequest)
 ```
 apiVersion: certificates.k8s.io/v1
 kind: CertificateSigningRequest
