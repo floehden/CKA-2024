@@ -61,5 +61,5 @@ kubectl get csr/learner -o yaml
 
 ## 7. Redirect the certificate value to learner.crt file after decoding it
 ```
-kubectl get csr learner -o jsonpath='{.status.certificate}'| base64 -d > learning.crt
+kubectl get csr learner -o jsonpath='{.status.certificate}'| base64 -d > learner.crt
 ```
