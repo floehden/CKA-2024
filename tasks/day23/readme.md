@@ -63,7 +63,7 @@ k get roles -A --no-headers | wc -l
 ```
 To change the user we need to set the user in kubectl with this
 ```
-kubectl config set-credentials adam --client-key=../day21/adam.key --client-certificate=../day21/adam.crt
+kubectl config set-credentials adam --client-key=../day21/adam.key --client-certificate=../day21/adam.crt --embed-certs=true
 ```
 We need the name of the user, the key and the certificate of the client
 We also need to set a context for the user with 
