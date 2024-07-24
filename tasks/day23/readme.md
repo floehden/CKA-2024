@@ -2,6 +2,8 @@
 
 In this [session](https://www.youtube.com/watch?v=uGcDt7iNFkE) we learned about the role based access control in Kubernetes.
 We learned, how to give roles to a user and restrict the access of the user, the he can only do certain things, like only get pods
+For further informations look at [this](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/).
+
 
 For this we used command like 
 ```
