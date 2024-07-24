@@ -1,6 +1,8 @@
 # Days 23 - Kubernetes RBAC Explained - Role Based Access Control Kubernetes
 
-In this session we learned about the role based access control in Kubernetes.
+In this [session](https://www.youtube.com/watch?v=uGcDt7iNFkE) we learned about the role based access control in Kubernetes.
+We learned, how to give roles to a user and restrict the access of the user, the he can only do certain things, like only get pods
+
 For this we used command like 
 ```
 kubectl auth can-i get pod --as adam
